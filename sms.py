@@ -11,5 +11,3 @@ data = "phone=01988420321"
 
 for i in range (amount):
 	resp = requests.post(url, headers=headers, data=data)
-
-print(str(i+1)+"SMS SENT"))
